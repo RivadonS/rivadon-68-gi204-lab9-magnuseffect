@@ -289,8 +289,8 @@ Transform:
   m_GameObject: {fileID: 89023075}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.783, z: 1}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0, y: -1.373, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -307,8 +307,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09ad14001e8756740ad2048dffd633a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MagnusForce
-  kickForce: 10
-  spinAmount: 0.9
+  kickForce: 28
+  spinAmount: 320
   magnusStrength: 0.5
 --- !u!1 &184272883
 GameObject:
@@ -1495,7 +1495,7 @@ Transform:
   m_GameObject: {fileID: 1798722570}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.18359, y: -1.968, z: 5.372}
+  m_LocalPosition: {x: 2.35, y: -1.968, z: 5.372}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
