@@ -9,7 +9,6 @@ public class TorqueRotate : MonoBehaviour
     [SerializeField] private float torquePower = 50f;
 
     private Rigidbody rb;
-    private bool isPressingD = false;
 
     void Start()
     {
