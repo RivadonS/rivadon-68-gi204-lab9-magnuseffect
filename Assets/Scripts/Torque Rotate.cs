@@ -16,23 +16,15 @@ public class TorqueRotate : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (Keyboard.current.dKey.isPressed)
         {
-            isPressingD = true;
+            rb.AddTorque(0f, 0f, torquePower);
         }
         else
         {
-            isPressingD = false;
-        }
-    }
-
-    void FixedUpdate()
-    {
-        if (isPressingD)
-        {
-            rb.AddTorque(0f, 0f, torquePower);
+            rb.AddTorque(Vector3.zero);
         }
     }
 }
